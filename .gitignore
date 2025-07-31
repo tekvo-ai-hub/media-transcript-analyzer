@@ -1,0 +1,207 @@
+# ===============================
+# Python / Machine Learning
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb~
+
+# Logs, caches, outputs
+*.log
+*.out
+*.tmp
+*.bak
+*.cache
+.cache/
+logs/
+logging/
+output/
+__results__/
+runs/
+wandb/
+
+# Datasets & Models
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.jsonl
+*.parquet
+*.zip
+*.tar.gz
+*.gz
+*.h5
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.mlmodel
+*.joblib
+*.pkl
+*.sav
+*.npy
+*.npz
+*.model
+data/
+datasets/
+checkpoints/
+models/
+artifacts/
+weights/
+storage/
+output_files/
+results/
+
+# Hugging Face / Transformers
+tokenizer_config.json
+*.lock
+*.safetensors
+*.bin
+*.msgpack
+
+# Streamlit & Gradio
+.streamlit/
+.gradio/
+
+# ===============================
+# Node.js / JavaScript
+# ===============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+
+# TypeScript
+*.tsbuildinfo
+
+# Electron / Svelte / Vue / React / Dash
+dist/
+build/
+*.cache
+.svelte-kit/
+.next/
+.nuxt/
+.vite/
+vite.config.*
+*.map
+.eslintrc.*
+.prettierrc*
+stylelint.config.js
+
+# ===============================
+# Rust / C++ / Qt / Tauri
+# ===============================
+target/
+Cargo.lock
+*.rs.bk
+qtcreator*
+CMakeFiles/
+CMakeCache.txt
+Makefile
+*.pro.user*
+*.moc
+moc_*.cpp
+ui_*.h
+*.qrc
+*.o
+*.obj
+*.dll
+*.exe
+
+# Tauri
+src-tauri/target/
+src-tauri/Cargo.lock
+
+# ===============================
+# Flask / FastAPI / NestJS
+# ===============================
+*.sqlite
+*.db
+*.pid
+*.sock
+*.log
+*.pydevproject
+instance/
+.env
+.env.*
+local_settings.py
+
+# ===============================
+# VS Code / IDE / OS / Tools
+# ===============================
+.vscode/
+.idea/
+*.sublime*
+*.swp
+*.swo
+*.bak
+*.orig
+*.tmp
+*.iml
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Coverage / Test / CI
+.coverage
+.tox/
+.nox/
+.mypy_cache/
+.pytest_cache/
+.cache/
+coverage.xml
+junit.xml
+test-output/
+htmlcov/
+*.cover
+
+# GitHub Copilot / LLM Trace Files
+copilot.json
+openai_logs/
+chat_transcripts/
+codellama_traces/
+debug_sessions/
+
+# ===============================
+# Docker / Kubernetes
+# ===============================
+*.pid
+docker-compose.override.yml
+docker.env
+.dockerignore
+.docker/
+
+# Helm / K8s
+*.tgz
+*.lock
+charts/
+tmpcharts/
+release/
+
+# ===============================
+# Misc
+# ===============================
+*.md~
+*.bak~
+*.tmp~
+*.rej
+notes/
+drafts/
+logs/
+*.log.*
