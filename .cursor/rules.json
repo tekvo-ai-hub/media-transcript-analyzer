@@ -1,0 +1,89 @@
+{
+  "projectType": "rag-private-ai",
+  "rules": {
+    "requiredFiles": [
+      "README.md",
+      ".gitignore",
+      "Dockerfile",
+      "docker-compose.yml",
+      ".env"
+    ],
+    "requiredFolders": [
+      "app",
+      "frontend",
+      "llm",
+      "vectorstore",
+      "data",
+      "tests",
+      "scripts"
+    ],
+    "folderStructure": {
+      "app": [
+        "main.py",
+        "routes/",
+        "services/",
+        "config/"
+      ],
+      "frontend": [
+        "src/",
+        "public/"
+      ],
+      "llm": [
+        "model_runner.py",
+        "rag_pipeline.py",
+        "embeddings.py"
+      ],
+      "vectorstore": [
+        "client.py",
+        "ingest.py",
+        "schema.json"
+      ],
+      "data": [
+        "raw/",
+        "processed/",
+        "samples/"
+      ],
+      "scripts": [
+        "generate_readme.ps1",
+        "git-auto-commit.ps1",
+        "copy-gitignore.ps1"
+      ],
+      "tests": [
+        "test_rag.py",
+        "test_api.py"
+      ]
+    },
+    "fileRules": {
+      "*.py": {
+        "maxLines": 300,
+        "lint": true,
+        "docstringRequired": true
+      },
+      "*.md": {
+        "spellcheck": true,
+        "maxLines": 500
+      },
+      ".env": {
+        "excludeFromGit": true
+      }
+    },
+    "namingConventions": {
+      "folders": "kebab-case",
+      "files": "snake_case"
+    },
+    "extensions": {
+      "required": [
+        "python",
+        "markdown",
+        "json",
+        "dockerfile"
+      ],
+      "disallowed": [
+        ".exe",
+        ".dll",
+        ".apk",
+        ".ipa"
+      ]
+    }
+  }
+}
