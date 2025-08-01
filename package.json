@@ -1,0 +1,15 @@
+{
+  "name": "media-transcript-analyzer",
+  "version": "1.0.0",
+  "description": "Tool to batch-correct speaker alignment using Supabase Edge Function and Together AI",
+  "main": "realignAndSave.js",
+  "type": "module",
+  "scripts": {
+    "start": "node diarize.js",
+    "fixjson": "node fixjson.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "node-fetch": "^3.3.2"
+  }
+}

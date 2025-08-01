@@ -205,3 +205,5 @@ notes/
 drafts/
 logs/
 *.log.*
+
+project/

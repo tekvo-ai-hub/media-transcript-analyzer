@@ -1,0 +1,68 @@
+[
+  {
+    "index": 0,
+    "text": " quality and QA person and QC person and then the jobs are added by the project manager.",
+    "run1": "SPEAKER_04",
+    "run2": "SPEAKER_01"
+  },
+  {
+    "index": 1,
+    "text": "Okay, so now like tasks are different type of activities or you can say different type of users have different responsibilities.",
+    "run1": "SPEAKER_04",
+    "run2": "SPEAKER_01"
+  },
+  {
+    "index": 2,
+    "text": " So project manager have the responsibility to add the data sets and jobs.",
+    "run1": "SPEAKER_04",
+    "run2": "SPEAKER_01"
+  },
+  {
+    "index": 3,
+    "text": "And operations manager have the ability to add users.",
+    "run1": "SPEAKER_04",
+    "run2": "SPEAKER_01"
+  },
+  {
+    "index": 4,
+    "text": "And if some job is locked, then he can unlock it so that someone else can pick it up.",
+    "run1": "SPEAKER_04",
+    "run2": "SPEAKER_01"
+  },
+  {
+    "index": 5,
+    "text": "So now there is no process where you go and manually assign some tasks to a user.",
+    "run1": "SPEAKER_04",
+    "run2": "SPEAKER_01"
+  },
+  {
+    "index": 6,
+    "text": "User starts the task on their own.",
+    "run1": "SPEAKER_04",
+    "run2": "SPEAKER_01"
+  },
+  {
+    "index": 8,
+    "text": "If the job includes automatic ASR, then it will go through automatic process.",
+    "run1": "SPEAKER_04",
+    "run2": "SPEAKER_01"
+  },
+  {
+    "index": 9,
+    "text": "If it doesn't include automatic, then it will just do validation and splitting using VAD so that the other users can do transcription and all.",
+    "run1": "SPEAKER_04",
+    "run2": "SPEAKER_01"
+  },
+  {
+    "index": 39,
+    "text": "It is a transcription job.",
+    "run1": "SPEAKER_08",
+    "run2": "SPEAKER_01"
+  },
+  {
+    "index": 158,
+    "text": "Yeah.",
+    "run1": "SPEAKER_02",
+    "run2": "SPEAKER_01"
+  }
+]
